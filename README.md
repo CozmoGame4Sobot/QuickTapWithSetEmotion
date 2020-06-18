@@ -38,11 +38,14 @@ tap_game.py -h (--help) [-s (--sad), -a (--angry)] [-e (--easy), -d (--difficult
  
  ### One of the following three options needed 
  -e --easy: It will be easy to win against Cozmo as Cozmo waits for longer making it slow
+ 
  -d -- difficult: It will be hard to win against Cozmo as Cozmo waits for shorter time making it very fast
+ 
  -t --time= Specifies how long to wait for in seconds explicitly
  
  ### The next two a related to logging
  -l --logPath: Expets full path to log directory
+ 
  -i --ignoreLogging: There will be no logs
  
  ## Animations used
