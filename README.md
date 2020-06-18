@@ -20,7 +20,7 @@ The cozmo sdk(s) are a match for version Cozmo app version 1.5 . They need to be
 To setup your device and computer to run custom python code, see instruction from Anki here: http://cozmosdk.anki.com/docs/initial.html
 
 
-# To run the game
+## To run the game
 Connect to Cozmo and run it in SDK mode
 
 Then from commandline cd to the file where you have downloaded the files from this repository.
@@ -31,11 +31,12 @@ tap_game.py -h (--help) [-s (--sad), -a (--angry)] [-e (--easy), -d (--difficult
 
 
  -h -- help : will bring up the help line above
- ### Following two are either or. One 
+ ###  One of the following two options needed 
  -s -- sad: Cozmo will be sad when they lose the game
+ 
  -a --angry: Cozmo will be angry when they lose the game
  
- ### Following three are either or
+ ### One of the following three options needed 
  -e --easy: It will be easy to win against Cozmo as Cozmo waits for longer making it slow
  -d -- difficult: It will be hard to win against Cozmo as Cozmo waits for shorter time making it very fast
  -t --time= Specifies how long to wait for in seconds explicitly
