@@ -9,10 +9,15 @@ Note that this program is written for Cozmo app 1.5. It may or maynot run with l
 ##Requirements
 
 We used Python version 3.5.3 with the following packages 
+
 numpy==1.16.4
+
 Pillow==6.1.0
+
 cozmoclad==1.5.0
+
 cozmo==0.14.0
+
 
 The cozmo sdk(s) are a match for version Cozmo app version 1.5 . They need to be installed in order provided so that a newer version of the packages don't get pulled in.
 
