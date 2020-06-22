@@ -1,9 +1,8 @@
 # QuickTap Game With Set Emotion
 ## Introduction
-QuickTap is a game that is provided with the Cozmo app. We needed to use it for some HRI behaviour studies but wanted to control the emotions Cozmo displayed.
+QuickTap is a game that is provided with the Cozmo app. We needed to use it for some HRI behaviour studies but wanted to control the emotions Cozmo displayed when it lost the final game.
 
-In this code Cozmo will play one round of quick tap. Whether Cozmo will act sad or angry can be manipulated from commandline.
-The game difficulty would also be played on commandline.
+In this code Cozmo will play one round of quick tap. The round here is defined as the quickest 5 points scorer. Whether Cozmo will act sad or angry can be manipulated from commandline.The game difficulty can also be specified from commandline.
 
 Note that this program is written for Cozmo app 1.5. It may or maynot run with later apps and the animations and the animation names change between different versions of Cozmo app. So you will need to check if the animations used in this code are still available for you version of Cozmo and if they show the right emotion. We did not use the animation_group for evoking the animation which would have possibly made it version independent because that does not give us control over the emotion.
 
